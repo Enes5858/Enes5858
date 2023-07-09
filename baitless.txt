@@ -1,0 +1,15 @@
+               __  .__    .___      __          
+_____    _____/  |_|__| __| _/_____/  |_  ____  
+\__  \  /    \   __\  |/ __ |/  _ \   __\/ __ \ 
+ / __ \|   |  \  | |  / /_/ (  <_> )  | \  ___/ 
+(____  /___|  /__| |__\____ |\____/|__|  \___  >
+     \/     \/             \/                \/ 
+1. resize 512x512 (DONT ADD A TAG UNTIL THE END)
+2. dupe image, invert original image
+3. change top layer opacity to 200, change bottom layer opacity to 180
+4. merge top layer down
+5. dupe layers, invert bottom one
+6. set bottom layer opacity to 180, merge top layer down
+7. make transparent
+8. set opacity to 200
+9. now add your tag and shit
