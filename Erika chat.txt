@@ -1,0 +1,31 @@
+local delay = 2.5
+function send(text)
+   local A_delay = text
+   local A_2 = "All"
+   local event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+   event:FireServer(A_delay, A_2)
+
+end
+while wait(delay) do
+   send("Auf der Heide blüht ein kleines Blümelein")
+   wait(delay)
+   send("Und das heißt")
+   wait(delay)
+   send("Erika")
+   wait(delay)
+   send("Heiß von hunderttausend kleinen Bienelein")
+   wait(delay)
+   send("Wird umschwärmt")
+   wait(delay)
+   send("Erika")
+   wait(delay)
+   send("Denn ihr Herz ist voller Süßigkeit")
+   wait(delay)
+   send("Zarter Duft entströmt dem Blütenkleid")
+   wait(delay)
+   send("Auf der Heide blüht ein kleines Blümelein")
+   wait(delay)
+   send("Und das heißt")
+   wait(delay)
+   send("Erika")
+   end
